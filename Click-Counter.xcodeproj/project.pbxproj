@@ -12,7 +12,7 @@
 		C43817F720CF19AA00DA2931 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C43817F520CF19AA00DA2931 /* Main.storyboard */; };
 		C43817F920CF19AA00DA2931 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C43817F820CF19AA00DA2931 /* Assets.xcassets */; };
 		C43817FC20CF19AA00DA2931 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C43817FA20CF19AA00DA2931 /* LaunchScreen.storyboard */; };
-		C438180720CF19AA00DA2931 /* Click_CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C438180620CF19AA00DA2931 /* Click_CounterTests.swift */; };
+		C460248820D84A570079FA36 /* Click_CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C438180620CF19AA00DA2931 /* Click_CounterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -199,6 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C460248820D84A570079FA36 /* Click_CounterTests.swift in Sources */,
 				C43817F420CF19AA00DA2931 /* ViewController.swift in Sources */,
 				C43817F220CF19AA00DA2931 /* AppDelegate.swift in Sources */,
 			);
@@ -208,7 +209,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C438180720CF19AA00DA2931 /* Click_CounterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
