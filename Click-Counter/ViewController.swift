@@ -43,7 +43,6 @@ class ViewController: UIViewController {
         self.count += 1
         self.label.text = "\(self.count)"
         
-        
     }
 
 }
