@@ -9,9 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
+    // Mark: Global Variables
     var count = 0
-    var Holder : UILabel!
+    var Holder1 : UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         label.frame = CGRect(x: 150, y: 150, width: 60, height: 60)
         label.text = "0"
         view.addSubview(label)
-        Holder = label
+        Holder1 = label
         print("View Did Load")
         
         
@@ -41,7 +41,7 @@ class ViewController: UIViewController {
     @objc func incrementCount(){
         
         self.count += 1
-        Holder.text = "\(self.count)"
+        Holder1.text = "\(self.count)"
         
     }
 
