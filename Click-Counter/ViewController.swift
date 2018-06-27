@@ -15,22 +15,24 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        // Creating subviews for the Label and the Buttom
+        
         // Mark: Label
-        let label = UILabel()
-        label.frame = CGRect(x: 150, y: 150, width: 60, height: 60)
-        label.text = "0"
-        view.addSubview(label)
+        let label = UILabel() // allocation and intialization of a label
+        label.frame = CGRect(x: 150, y: 150, width: 60, height: 60) // setting up frame
+        label.text = "0" // initial set to zero
+        view.addSubview(label) // Calling the view property, adding label as subview
         Holder1 = label
         print("View Did Load")
         
         
         // Mark: Button
         
-        let button = UIButton()
-        button.frame = CGRect(x: 150, y: 250, width: 60, height: 60)
-        button.setTitle("Click", for: .normal)
-        button.setTitleColor(UIColor.blue, for: .normal)
-        view.addSubview(button)
+        let button = UIButton() // allocation and intialization of the button
+        button.frame = CGRect(x: 150, y: 250, width: 60, height: 60) // setting up frame
+        button.setTitle("Click", for: .normal) // Giing buttom a title
+        button.setTitleColor(UIColor.blue, for: .normal) // setting a color for the button
+        view.addSubview(button) // Calling the view property, adding button as subview
         
         // Mark: Adding target action to the button
         
